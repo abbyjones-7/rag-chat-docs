@@ -9,7 +9,7 @@ def load_pdf(filepath):
         pages.append((i,text))
     return pages
 
-def chunk_text(text, chunkSize =500, overlap=50):
+def chunk_text(text, chunkSize =350, overlap=50):
     chunks = []
     start = 0
     while start<len(text):
